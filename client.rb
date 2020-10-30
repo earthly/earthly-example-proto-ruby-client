@@ -5,7 +5,7 @@ require 'api_pb'
 require 'api_services_pb'
  
 stub = Simplekeyvalue::KeyValue::Stub.new(
- '0.0.0.0:50052', :this_channel_is_insecure
+  '127.0.0.1:50051', :this_channel_is_insecure
 )
  
 request = Simplekeyvalue::GetRequest.new(key: "fish")
