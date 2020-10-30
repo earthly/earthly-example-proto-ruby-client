@@ -10,4 +10,4 @@ stub = Simplekeyvalue::KeyValue::Stub.new(
  
 request = Simplekeyvalue::GetRequest.new(key: "fish")
 response = stub.get(request)
-puts response.body
+puts response.value
