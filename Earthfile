@@ -1,3 +1,4 @@
+VERSION 0.6
 FROM ruby:latest
 
 RUN gem install grpc
