@@ -11,7 +11,7 @@ code:
 
 kv-ruby-client-docker:
     FROM +code
-    SAVE IMAGE as kv-ruby-client:latest
+    SAVE IMAGE kv-ruby-client:latest
 
 all:
     BUILD +lint
